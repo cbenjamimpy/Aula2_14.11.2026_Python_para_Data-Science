@@ -8,7 +8,7 @@ while True:
         # A função int() é usada para converter a entrada do usuário (que é uma sting) em um número inteiro.
     
             idade = int(input("Digite sua idade: "))
-            print(f"Sua idade é {idade} anos.") # a função print () exibe a idade do usuário usando f-string para formatação da saída.
+            # a função print () exibe a idade do usuário usando f-string para formatação da saída.
             if(idade<0):
                 print('Digite uma idade valida')
             else:
